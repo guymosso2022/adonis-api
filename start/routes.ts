@@ -19,7 +19,6 @@
 */
 
 import Route from "@ioc:Adonis/Core/Route";
-import AuthsController from "App/Controllers/Http/AuthsController";
 
 Route.get("/", async () => {
   return { hello: "world" };
